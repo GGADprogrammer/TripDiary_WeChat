@@ -2,11 +2,14 @@
 	"miniprogramRoot": "miniprogram/",
 	"cloudfunctionRoot": "cloudfunctions/",
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
 		"minified": true,
-		"newFeature": true
+		"newFeature": true,
+		"nodeModules": true,
+		"autoAudits": false,
+		"checkInvalidKey": true
 	},
 	"appid": "wxab9b47f21786cd16",
 	"projectname": "tripDiary",
@@ -30,12 +33,33 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 0,
+			"current": 3,
 			"list": [
 				{
 					"id": -1,
 					"name": "db guide",
-					"pathName": "pages/databaseGuide/databaseGuide"
+					"pathName": "pages/databaseGuide/databaseGuide",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "diaryViewer",
+					"pathName": "pages/diaryViewer/diaryViewer",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "personalCenter",
+					"pathName": "pages/personalCenter/personalCenter",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "search",
+					"pathName": "pages/search/search",
+					"scene": null
 				}
 			]
 		}

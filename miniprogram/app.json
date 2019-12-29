@@ -1,20 +1,44 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/userConsole/userConsole",
-    "pages/storageConsole/storageConsole",
-    "pages/databaseGuide/databaseGuide",
-    "pages/addFunction/addFunction",
-    "pages/deployFunctions/deployFunctions",
-    "pages/chooseLib/chooseLib",
-    "pages/openapi/openapi"
+    "pages/search/search",
+    "pages/personalBill/personalBill",
+    "pages/personalCenter/personalCenter",
+    "pages/writeDiary/writeDiary",
+    "pages/diaryViewer/diaryViewer"
+    
   ],
-  "window": {
-    "backgroundColor": "#F6F6F6",
+"window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "My journal",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#858585",
+    "selectedColor": "#39b5de",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/mark.png",
+        "selectedIconPath": "images/markHL.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "iconPath": "images/more.png",
+        "selectedIconPath": "images/moreHL.png",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/personalCenter/personalCenter",
+        "iconPath": "images/mine.png",
+        "selectedIconPath": "images/mineHL.png",
+        "text": "我的"
+      }
+    ]
   },
   "sitemapLocation": "sitemap.json"
 }
