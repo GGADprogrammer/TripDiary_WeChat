@@ -1,4 +1,4 @@
-# TripDiary_Wechart
+# TripDiary_WeChat
 软件截图：
 -------------
 ![image](https://github.com/GGADprogrammer/TripDiary_Wechart/blob/master/%E8%BF%90%E8%A1%8C%E6%95%88%E6%9E%9C%E6%88%AA%E5%9B%BE/IMG_2644(20191229-153211).jpg)
